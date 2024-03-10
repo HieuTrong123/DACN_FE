@@ -1,0 +1,34 @@
+.slide{
+    position: relative;
+}
+.slider_button{
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    /* color: #5468E7; */
+    color: #fff;
+    background-color: rgba(35, 35, 64,0.4);
+    padding: 30px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button_right{
+    right: 10px;
+}
+.button_left{
+    left: 10px;
+}
+.slide2{
+    border-left: 14px solid #fff;
+}
+@media (max-width:739px){
+    .slide2{
+        display: none !important;	
+    }
+    .slider_button{
+        
+        font-size: 25px;
+        color: #fff;
+        padding: 25px 20px;
+    }
+}

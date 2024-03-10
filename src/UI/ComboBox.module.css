@@ -1,0 +1,17 @@
+.comboBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comboBox label {
+    font-size: 24px;
+    
+}
+
+
+  @media (min-width:740px) and (max-width:1023px){
+
+  }
+  @media (max-width:739px){
+      
+  }
